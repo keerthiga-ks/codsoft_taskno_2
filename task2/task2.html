@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Health and Wellness</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+        <style>
+            body{
+                margin:0;
+                background-color:  rgb(103,232,249);
+                padding:0;
+            }
+            .colour{
+                padding:0;
+                display:flex;
+                flex-direction:column;
+                position:fixed;
+                padding-top: 0px;
+                column-gap:560px;
+                align-items:center;
+                justify-content: space-between;
+                z-index:100;
+            }
+            .portfolio{
+                padding-top: 35px;
+                margin-left:30px;
+                display: flex;
+                position: fixed;
+                color:black;
+                font-family:"Poppins",sans-serif;
+                font-size:26px;
+                font-weight:700;
+                text-decoration: none;
+                padding-bottom:20px;
+            }
+            .left-section{
+                height:35px;
+                margin-left:20px;
+                font-weight:700;
+                font-size:30px;
+            }
+            a{
+                text-decoration:none;
+                padding:5px 10px 5px 10px;
+                color:black;
+                font-family: poppins;
+            }
+            .nav{
+                display:flex;
+                position:fixed;
+                height:32px;
+                color:black;
+                column-gap: 40px;
+                font-weight:700;
+                cursor:pointer;
+                margin-left:500px;
+                font-size:16px;
+                font-weight:500;
+            }
+            .nav a:hover{
+                transition:0.15;
+                background-color:white;
+                color:black;
+                font-size: 15px;
+                font-family:poppins;
+                border-radius:18px;
+            }
+           
+            .hi{
+                font-family: poppins;
+                font-weight:700;
+                color:#226A80;
+                font-size:40px;
+                margin-left:60px;
+                line-height: 0;
+                margin-top:270px;
+                text-transform: uppercase;
+            }
+            
+            .name{
+                margin-left:5px;
+                margin-top:0;
+                font-family:poppins;
+                font-weight:800;
+                color:#fff;
+                font-size: 40px;
+                margin-bottom:0;
+                text-transform: uppercase;
+            }
+
+            .work{
+                margin-top:10px;
+                font-family: poppins;
+                font-weight:500;
+                color:black;
+                font-size:12px;
+                margin-left:64px;
+                line-height: 28px;
+                letter-spacing:1px;
+                width:700px;
+            }
+            .para{
+             
+                display: grid;
+                grid-template-columns: 760px 400px;
+                margin-bottom:0;
+            }
+            .profile{
+                margin-top:120px;
+                position:absolute;
+                width:300px;
+                border-radius:100;
+                margin-left:20px;
+            }
+            
+            .shape{
+                width:350px;
+                height:350px;
+                border-radius:200px;
+                background:#226A80;
+                overflow:hidden;
+                margin-top:130px;
+            }
+            .btn {
+                width:150px;
+                height:50px;
+                margin-left:60px;
+                outline: none;
+                border: none;
+                font-size: 16px;
+                color: #fff;
+                font-weight:bold;
+                background-color: #226A80;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-top:0px;
+                transition:0.15s;
+            }
+           .btn:hover{
+                opacity:0.9;
+           }
+        </style>
+    </head>
+    <body>
+        <colour>
+            <div class="left-section">
+                <a href="#home" class="portfolio">Health & Wellness</a>
+            </div>
+        </colour>
+        <div class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div id="home" class="content">
+            <div class="para">
+                <div>
+                    <p class="hi">Get Quick <span class="name">Medical Services</span></p>
+              
+                    <p class="work"> In today's fast-paced world, access to prompt and efficient medical
+                        services is of paramount importance. When faced with a medical
+                        emergency or seeking immediate medical attention, the ability to
+                        receive quick medical services can significantly impact the outcome
+                        of a situation. Your Health matter for us!We are Providing an Exceptional Patience Experience
+                    </p>
+                </div>
+                <div class="pic">
+                    <img class="profile" src="header-bg.png">
+                    <div class="shape"></div>
+                </div>
+                
+            </div>
+        </div>
+        <button class="btn">Get services</button>
+        <button class="btn">Register Now</button>
+    </body>
+           
